@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body class="has-scrollbar">
-    <nav>
-      <ul role="menubar">
+    <nav class="navbar">
+      <ul style="display: flex; width: 100%; " role="menubar">
         <li aria-haspopup="true" role="menuitem" tabindex="0">
           <a href="/index.html">
             <img src="./assets/logo.png" width="50" />
@@ -19,8 +19,18 @@
         </li>
         <li role="menuitem" tabindex="0">Tokenomic</li>
         <li role="menuitem" tabindex="0">How to buy</li>
-        <li role="menuitem" tabindex="0">Telegram</li>
-        <li role="menuitem" tabindex="0">Twitter</li>
+
+        <ul style="margin-left: auto; padding-right: 15px" role="menubar">
+          <li role="menuitem" tabindex="0">Telegram</li>
+          <li role="menuitem" tabindex="0">Twitter</li>
+          <li
+            style="background-color: #0351a7; color: #d9dfef"
+            role="menuitem"
+            tabindex="0"
+          >
+            Buy Now
+          </li>
+        </ul>
       </ul>
     </nav>
     <!-- <main>

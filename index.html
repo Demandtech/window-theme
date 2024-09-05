@@ -8,10 +8,59 @@
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body class="has-scrollbar">
+    <main>
+      <div style="margin-bottom: 50px; border-radius: 0;" class="title-bar">
+        <div class="title-bar-text">Project Name</div>
+        <!-- <div class="title-bar-controls">
+          <button aria-label="Close"></button>
+        </div> -->
+      </div>
+      <div class="container">
+        <div class="window active" id="tokenomic">
+          <div class="title-bar">
+            <div class="title-bar-text">Tokenomic</div>
+            <!-- <div class="title-bar-controls">
+              <button aria-label="Minimize"></button>
+              <button aria-label="Maximize"></button>
+              <button aria-label="Close"></button>
+            </div> -->
+          </div>
+          <div class="window-body has-space">
+            <p>Tokenomic</p>
+          </div>
+        </div>
+        <div class="window active" id="howtobuy">
+          <div class="title-bar">
+            <div class="title-bar-text">How to buy</div>
+            <!-- <div class="title-bar-controls">
+              <button aria-label="Minimize"></button>
+              <button aria-label="Maximize"></button>
+              <button aria-label="Close"></button>
+            </div> -->
+          </div>
+          <div class="window-body has-space">
+            <p>How to buy</p>
+          </div>
+        </div>
+        <div class="window active" id="ca">
+          <div class="title-bar">
+            <div class="title-bar-text">Ca</div>
+            <!-- <div class="title-bar-controls">
+              <button aria-label="Minimize"></button>
+              <button aria-label="Maximize"></button>
+              <button aria-label="Close"></button>
+            </div> -->
+          </div>
+          <div class="window-body has-space">
+            <p>CA</p>
+          </div>
+        </div>
+       
+    </main>
     <footer class="footer">
       <ul id="menuItem" hidden role="menu" style="width: 200px">
-        <li role="menuitem"><a href="#menu">Tokenomic</a></li>
-        <li role="menuitem"><a href="#menu">How to buy</a></li>
+        <li role="menuitem"><a href="#tokenomic">Tokenomic</a></li>
+        <li role="menuitem"><a href="#howtobuy">How to buy</a></li>
         <li role="menuitem"><a href="#menu">Telegram</a></li>
         <li role="menuitem"><a href="#menu">Twitter</a></li>
         <li role="menuitem"><a href="#menu">Buy Now</a></li>
@@ -26,7 +75,6 @@
         </li>
       </ul>
     </footer>
-
     <script src="./app.js"></script>
   </body>
 </html>

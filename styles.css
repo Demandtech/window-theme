@@ -22,6 +22,20 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); */
 }
 
+.introduction {
+  & p {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    padding-top: 30px;
+    padding-left: 30px;
+  }
+
+  & ul {
+    padding-left: 45px;
+    padding-bottom: 30px;
+  }
+}
+
 .footer {
   position: absolute;
   bottom: 0;

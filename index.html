@@ -8,13 +8,50 @@
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body class="has-scrollbar">
-    <main>
-      <div style="margin-bottom: 50px; border-radius: 0;" class="title-bar">
-        <div class="title-bar-text">Project Name</div>
-        <div class="title-bar-controls">
-          <button aria-label="Close"></button>
-        </div>
+    <nav style="margin-bottom: 50px; background-color: #dadff0;">
+      <div class="logo-wrapper">
+        <img src="./assets/logo.png" width="100" />
+        <span>StyleStar Forum</span>
       </div>
+      <ul role="menubar" class="can-hover">
+        <li role="menuitem" tabindex="0" aria-haspopup="true">
+         Social Links
+          <ul role="menu">
+            <li role="menuitem">
+              <a href="#menubar">
+               Twitter <span>Ctrl+O</span>
+              </a>
+            </li>
+            <li role="menuitem">
+              <a href="#menubar">
+                Telegram <span>Ctrl+S</span>
+              </a>
+            </li>
+            <li role="menuitem" class="has-divider">
+              <a href="#menubar">
+                Facebook <span>Ctrl+Shift+S</span>
+              </a>
+            </li>
+            <li role="menuitem"><a href="#menubar">Exit</a></li>
+          </ul>
+        </li>
+        <li role="menuitem" tabindex="0" aria-haspopup="true">
+          Forum Rules
+          <ul role="menu">
+            <li role="menuitem"><a href="#menubar">Undo</a></li>
+            <li role="menuitem"><a href="#menubar">Copy</a></li>
+            <li role="menuitem"><a href="#menubar">Cut</a></li>
+            <li role="menuitem" class="has-divider"><a href="#menubar">Paste</a></li>
+            <li role="menuitem"><a href="#menubar">Delete</a></li>
+            <li role="menuitem"><a href="#menubar">Find...</a></li>
+            <li role="menuitem"><a href="#menubar">Replace...</a></li>
+            <li role="menuitem"><a href="#menubar">Go to...</a></li>
+          </ul>
+        </li>
+      
+      </ul>
+    </nav>
+    <main>
       <div class="container">
         <div class="window active" id="tokenomic">
           <div class="title-bar">

@@ -8,49 +8,24 @@
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body class="has-scrollbar">
-    <nav class="navbar">
-      <ul style="display: flex; width: 100%; " role="menubar">
-        <li aria-haspopup="true" role="menuitem" tabindex="0">
+    <footer class="footer">
+      <ul id="menuItem" hidden role="menu" style="width: 200px">
+        <li role="menuitem"><a href="#menu">Tokenomic</a></li>
+        <li role="menuitem"><a href="#menu">How to buy</a></li>
+        <li role="menuitem"><a href="#menu">Telegram</a></li>
+        <li role="menuitem"><a href="#menu">Twitter</a></li>
+        <li role="menuitem"><a href="#menu">Buy Now</a></li>
+      </ul>
+      <ul style="display: flex; width: 100%" role="menubar">
+        <li aria-haspopup="true" id="menuButton" role="menuitem" tabindex="0">
           <a href="/index.html">
             <img src="./assets/logo.png" width="50" />
           </a>
           <span></span>
-          Home
+          Start
         </li>
-        <li role="menuitem" tabindex="0">Tokenomic</li>
-        <li role="menuitem" tabindex="0">How to buy</li>
-
-        <ul style="margin-left: auto; padding-right: 15px" role="menubar">
-          <li role="menuitem" tabindex="0">Telegram</li>
-          <li role="menuitem" tabindex="0">Twitter</li>
-          <li
-            style="background-color: #0351a7; color: #d9dfef"
-            role="menuitem"
-            tabindex="0"
-          >
-            Buy Now
-          </li>
-        </ul>
       </ul>
-    </nav>
-    <!-- <main>
-      <section class="tabs">
-        <menu role="tablist" aria-label="Tabs Template">
-          <button role="tab" aria-controls="tab-A" aria-selected="true">
-            Tab A
-          </button>
-          <button role="tab" aria-controls="tab-B">Tab B</button>
-          <button role="tab" aria-controls="tab-C">Tab C</button>
-          <button role="tab" aria-controls="tab-D" disabled="">Tab D</button>
-        </menu>
-        <article role="tabpanel" id="tab-A">Tab A is active</article>
-        <article role="tabpanel" id="tab-B" hidden>Tab B is active</article>
-        <article role="tabpanel" id="tab-C" hidden="">Tab C is active</article>
-        <article role="tabpanel" id="tab-D" hidden="">
-          Tab D is inactive
-        </article>
-      </section>
-    </main> -->
+    </footer>
 
     <script src="./app.js"></script>
   </body>
